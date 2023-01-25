@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه ورود / عضویت</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- START HEADER -->
+    <header style="flex-direction: row-reverse;">
+        <!-- logo -->
+        <div class="logo-header">
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <!-- menu-bar -->
+        <nav class="menu">
+            <!-- toggle -->
+            <div class="toggle" style="top: -22px; right: 40px;">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="#">درباره موسسه</a></li>
+                <li><a href="#"> آموزش <i class="fa fa-sort-desc"></i></a>
+                    <!-- dropdown -->
+                    <ul class="sub-menu">
+                        <li><a href="#">بخش یک</a></li>
+                        <li><a href="#">بخش دو</a></li>
+                        <li><a href="#">بخش سه</a></li>
+                        <li><a href="#">بخش چهار</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">مراکز تخصصی <i class="fa fa-sort-desc"></i></a><!-- dropdown -->
+                    <ul class="sub-menu">
+                        <li><a href="#">بخش یک</a></li>
+                        <li><a href="#">بخش دو</a></li>
+                        <li><a href="#">بخش سه</a></li>
+                        <li><a href="#">بخش چهار</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">مشاوره و پژوهش <i class="fa fa-sort-desc"></i></a><!-- dropdown -->
+                    <ul class="sub-menu">
+                        <li><a href="#">بخش یک</a></li>
+                        <li><a href="#">بخش دو</a></li>
+                        <li><a href="#">بخش سه</a></li>
+                        <li><a href="#">بخش چهار</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">تقویم آموزشی <i class="fa fa-sort-desc"></i></a><!-- dropdown -->
+                    <ul class="sub-menu">
+                        <li><a href="#">بخش یک</a></li>
+                        <li><a href="#">بخش دو</a></li>
+                        <li><a href="#">بخش سه</a></li>
+                        <li><a href="#">بخش چهار</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">پنل دانشجویی <i class="fa fa-sort-desc"></i></a><!-- dropdown -->
+                    <ul class="sub-menu">
+                        <li><a href="#">بخش یک</a></li>
+                        <li><a href="#">بخش دو</a></li>
+                        <li><a href="#">بخش سه</a></li>
+                        <li><a href="#">بخش چهار</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+    <!-- login -->
+    <div class="container" id="form">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button class="toggle-btn" onclick="login()">ورود</button>
+                <button class="toggle-btn" onclick="register()">ثبت نام</button>
+            </div>
+
+            <div class="social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-google-plus" style="color: red;"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" style="color:rgb(197, 88, 106)"></i></a></li>
+                    <li><a href="#"><i class="fa fa-telegram" style="color:rgb(73, 73, 201)"></i></a></li>
+                </ul>
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="نام کاربری یا ایمیل">
+                <input type="password" class="input-field" placeholder="پسوورد شما">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">فراموشم نکن</label>
+                <input type="submit" value="ورود">
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="نام کاربری">
+                <input type="text" class="input-field" placeholder="نام کاربری یا ایمیل">
+                <input type="password" class="input-field" placeholder="پسوورد شما">
+
+
+                <input type="submit" value="ثبت نام">
+            </form>
+
+        </div>
+        <div class="img-login">
+            <img src="img/login.png" alt="">
+        </div>
+    </div>
+    <!-- START FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>درباره موسسه</h6>
+                    <p class="text-justify" style="text-align: justify;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                        از صنعت چاپ و با استفاده از
+                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                        شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                        زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
+                        افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی.
+
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>دسترسی سریع</h6>
+                    <ul class="footer-links">
+                        <li><a href="#header">صفحه نخست</a></li>
+                        <li><a href="login.html">عضویت</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>ارتباط با ما</h6>
+                    <ul class="footer-links">
+                        <li>آدرس : کرمان</li>
+                        <li>ساختمان : </li>
+                        <li>ایمیل : info@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">کلیه حقوق این سایت متعلق به آکادمی آریا می باشد
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a class="telegram" href="#"><i class="fa fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- START JAVASCRIPT -->
+    <!-- START JAVASCRIPT -->
+    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript">
+        $(".menu .toggle ").click(function () {
+            $(".menu ul").slideToggle();
+            $(".menu ul .sub-menu").css("display", "none");
+        });
+        $(".menu ul li").click(function () {
+            $(this).find(".sub-menu").slideToggle();
+        });
+        $(window).resize(function () {
+            if ($(window).width() > 992) {
+                $(".menu ul").removeAttr("style");
+            }
+        })
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+        // login
+        const log = document.querySelector('#login');
+        const reg = document.querySelector('#register');
+        const btn = document.querySelector('#btn');
+        console.log(register)
+
+
+        function login() {
+            log.style.right = "0px";
+            reg.style.right = "450px";
+            btn.style.right = "0"
+        }
+
+
+        function register() {
+            log.style.right = "-450px";
+            reg.style.right = "0";
+            btn.style.right = "110px"
+        }
+
+    </script>
+</body>
+
+</html>
