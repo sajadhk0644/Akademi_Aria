@@ -94,9 +94,7 @@ header .logo-header img{
     border-radius: 25px;
     cursor: pointer;
 }
-.login a{
-    color: #525252;
-}
+
 .login:hover{
     background-color: #FF9933;
 }
